@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+    font-family: 'Raleway','Roboto', Sans-Serif;
 }
 .image {
   max-height: 80vh;
@@ -9,7 +10,17 @@
   flex-grow: 1;
 }
 .card {
+    margin-top: 2.5vh;
   max-height: 90vh;
   max-width: 25vw;
   min-width: 400px;
+}
+.sideContent {
+    max-height: 50vh;
+}
+.actions{
+    display: flex;
+}
+a {
+    padding: 10px;
 }
