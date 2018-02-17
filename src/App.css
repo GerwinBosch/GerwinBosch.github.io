@@ -24,3 +24,7 @@
 a {
     padding: 10px;
 }
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
