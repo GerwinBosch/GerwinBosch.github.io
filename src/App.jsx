@@ -18,6 +18,7 @@ import CodeIcon from 'material-ui/svg-icons/action/code';
 import MusicNote from 'material-ui/svg-icons/image/music-note';
 import Gaming from 'material-ui/svg-icons/hardware/videogame-asset';
 import Background from './Forests.jpg';
+import {} from "./Portfolio/Portfolio';
 
 const muiTheme = getMuiTheme({
   palette: {
@@ -176,8 +177,9 @@ class App extends Component {
                 <div className="space"/>
               </div>
             </Tab>
-            {/*<Tab label="portfolio">*/}
-            {/*</Tab>*/}
+            <Tab label="Portfolio">
+                <Portfolio/>
+            </Tab>
             {/*<Tab label="blog">*/}
             {/*</Tab>*/}
           </Tabs>
