@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from './Foto.jpg';
+import logo from './images/Foto.jpg';
 import './App.css';
 import {MuiThemeProvider} from 'material-ui/styles';
 import {getMuiTheme} from 'material-ui/styles';
@@ -17,8 +17,8 @@ import {green500, brown500} from 'material-ui/styles/colors';
 import CodeIcon from 'material-ui/svg-icons/action/code';
 import MusicNote from 'material-ui/svg-icons/image/music-note';
 import Gaming from 'material-ui/svg-icons/hardware/videogame-asset';
-import Background from './Forests.jpg';
-import {} from "./Portfolio/Portfolio';
+import Background from './images/Forests.jpg';
+import Portfolio from "./Portfolio/Portfolio";
 
 const muiTheme = getMuiTheme({
   palette: {
@@ -55,7 +55,7 @@ class App extends Component {
                     <CardMedia overlay={<CardTitle title="Gerwin Bosch"
                                                    subtitle="Software Engineer"/>}
                     >
-                      <img className="image" src={logo}/>
+                      <img  className="image" src={logo}/>
                     </CardMedia>
                     <CardActions>
                       <div className="actions">
